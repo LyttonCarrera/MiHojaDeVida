@@ -1,0 +1,110 @@
+* {
+    margin: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+div.Menu{
+    background: rgb(255, 255, 255);
+    display:flex;
+    flex-flow: row nowrap;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.Perfil{
+    background:  rgb(248, 247, 241);
+    height: 900px;
+    flex:1 1 auto;
+    width: 20%;
+}
+div.fotoperfil{
+    background:  rgb(248, 247, 241);
+     display: flex;
+     justify-content: center;
+     flex:1 1 auto;
+     height: 150px;
+    align-items: center;
+ }
+
+ div.POSIBLE{
+    background: rgb(248, 247, 241);
+    height: 300px;
+    
+    font-size: small;
+ }
+
+div.Datos{
+    background: rgb(255, 255, 255);
+    height: 500px;
+    flex:1 1 auto;
+    width: 70%;
+    align-items: ;
+    flex-flow: column nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: nowrap;
+
+   
+}
+div.INFOD{
+    background:  rgb(232, 230, 226);
+    height: 70px;
+    font-size: small;
+    flex-wrap: nowrap;
+    
+ }
+ 
+ div.EXTREMO2{
+    background:   rgb(255, 255, 255);
+    height: auto;
+    flex:1 1 auto;
+    font-size: small;
+    flex-wrap: nowrap;
+    
+ }
+
+ div.Texto3{
+    height: auto;
+    font-size: small;
+ }
+
+main.esqueleto{
+    background-color: rgb(73, 133, 224);
+}
+   section.cuerpo{
+    background: rgb(255, 255, 255);
+    display:flex;
+    flex-flow: wrap nowrap;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+
+     }
+        div.Experiencia{
+            background: rgb(255, 255, 255);
+            flex:1 1 auto;
+            height:auto;
+            width: 70%;
+            justify-content: center;
+            flex-wrap: nowrap;
+            font-family: Arial, Helvetica, sans-serif;
+         }
+            
+
+        div.Competencias{
+        background:  rgb(248, 247, 241);
+        flex:1 1 auto;
+        height: auto;
+        width: 20%;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        flex-wrap: nowrap;
+        }
+
+        div.linea {
+            border-top: 1px solid black;
+            height: 2px;
+            padding: 0;
+            margin: 20px auto 0 auto;
+          }
